@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="webDriver" parallel="tests">
+   <test name="Test In FireFox" >
+    <parameter name="browser" value="FFX" />
+    <classes>
+      <class name="test.Test_Parallel" />
+    </classes>
+  </test>
+   <test name="Test In Google Chrome" >
+    <parameter name="browser" value="CRM"></parameter>
+    <classes>
+      <class name="test.Test_Parallel"></class>
+    </classes>
+  </test>
+  <test name="Test In internet explorer]" >
+    <parameter name="browser" value="ie"></parameter>
+    <classes>
+      <class name="test.Test_Parallel"></class>
+    </classes>
+  </test> 
+</suite>

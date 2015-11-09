@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [webDriver]" parallel="tests">
+  <parameter name="browser" value="CRM"/>
+  <test name="Test In FireFox(failed)" parallel="tests">
+    <parameter name="browser" value="FFX"/>
+    <classes>
+      <class name="test.Test_Parallel">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="verify_title"/>
+          <include name="closebrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- test.Test_Parallel -->
+    </classes>
+  </test> <!-- Test In FireFox(failed) -->
+  <test name="Test In Google Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="CRM"/>
+    <classes>
+      <class name="test.Test_Parallel">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="verify_title"/>
+          <include name="closebrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- test.Test_Parallel -->
+    </classes>
+  </test> <!-- Test In Google Chrome(failed) -->
+</suite> <!-- Failed suite [webDriver] -->

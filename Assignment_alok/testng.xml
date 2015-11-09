@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="demoSuit">
+  	<tests>
+<!--		<test name="smokeTest">
+			<classes>
+				<class name="selenium.KohlsTestOne"></class>
+			</classes>
+		</test>   -->
+		<test name="Ft">
+			<classes>
+				<class name="selenium.KohlsTestTwo"></class>
+			</classes>
+		</test>
+	</tests>
+</suite>
