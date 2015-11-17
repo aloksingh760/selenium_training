@@ -8,7 +8,7 @@
 		</test>   -->
 		<test name="Ft">
 			<classes>
-				<class name="selenium.KohlsTestTwo"></class>
+				<class name="selenium.AssignmentSecondFouthNovember"></class>
 			</classes>
 		</test>
 	</tests>

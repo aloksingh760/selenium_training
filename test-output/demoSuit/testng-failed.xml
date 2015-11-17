@@ -3,11 +3,12 @@
 <suite name="Failed suite [demoSuit]">
   <test name="Ft(failed)">
     <classes>
-      <class name="test.DataproviderTest">
+      <class name="selenium.AssignmentSecondFouthNovember">
         <methods>
-          <include name="setData"/>
+          <include name="initializeDriver"/>
+          <include name="assignmentTwo_juniperlink"/>
         </methods>
-      </class> <!-- test.DataproviderTest -->
+      </class> <!-- selenium.AssignmentSecondFouthNovember -->
     </classes>
   </test> <!-- Ft(failed) -->
 </suite> <!-- Failed suite [demoSuit] -->

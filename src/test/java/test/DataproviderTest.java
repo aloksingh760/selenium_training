@@ -46,6 +46,7 @@ public class DataproviderTest {
 		 
 		    //Get first sheet from the workbook
 		    HSSFSheet sheet = workbook.getSheetAt(0);
+		   
 		     
 		    //Iterate through each rows from first sheet
 		    Iterator<Row> rowIterator = sheet.iterator();
@@ -62,8 +63,10 @@ public class DataproviderTest {
 		            
 		            while(cellIterator.hasNext()) {
 		            	for (int c=0; c<data[r].length; c++) { 
+		            		
+		            		
 		            Cell cell = cellIterator.next();
-		             
+		            
 		            switch(cell.getCellType()) {
 		               
 		                case Cell.CELL_TYPE_STRING:

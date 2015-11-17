@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="selenium.AssignmentFisrtFouthNovember">
+      <class name="selenium.AssignmentSecondFouthNovember">
         <methods>
-          <include name="testAssignmentFist"/>
-          <include name="initializeDriver"/>
+          <include name="assignmentTwo_juniperlink"/>
         </methods>
-      </class> <!-- selenium.AssignmentFisrtFouthNovember -->
+      </class> <!-- selenium.AssignmentSecondFouthNovember -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
